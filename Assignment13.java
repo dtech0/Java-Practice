@@ -4,7 +4,7 @@ public class Assignment13 {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in);) {
             System.out.print("Which fibonacci number do you want to see? ");
-            int n = sc.nextInt();
+            int n = sc.nextInt();//takes input
             int fib1 = 0;
             int fib2 = 1;
             if (n == 1)
